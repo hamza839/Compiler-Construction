@@ -1,0 +1,30 @@
+let a:int=25;
+let b:word=15;
+let c:int=35;
+def usami: int(let c:int,let &d:int);
+def outcasti: int(){ 
+/<until a>=5:
+i+=2;
+end;
+i=2;
+check a==0 then:
+i++;
+cout<<"bhangee";
+end;
+else then:
+cout<<"heh";
+end;>/
+//let ab:int=5;
+until a>=5:
+a+=2;
+end;
+usami(a,b,c);
+for int i in 0 .. 5 i+=2:
+i+=2;
+do:
+i+=2;
+end;
+until c>=5;
+end;
+send a;
+}
